@@ -14,6 +14,8 @@ This project focus on the *querying* strategy to perform text retrieval. For thi
 * The user gives a query to express the information needed 
 * The search engine system returns relevant text (documents) to the user 
 
+The advantages on using ngram-indexing for text retrieval are the ability to match linguistically similar terms, faster performance with a smaller index, accurate matches and high precision. On the other hand, the disadvantages of ngram-indexing are the need of space to save the index and a low recall.
+
 Finally, note that text retrieval is an empirically defined problem. This means, it can’t be mathematically proven that one method is better than another. Therefore, proof must rely on empirical evaluation involving users. 
 
 ## How to compile and link in one step:
