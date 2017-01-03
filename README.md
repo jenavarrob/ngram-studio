@@ -17,7 +17,8 @@ This project focus on the *querying* strategy to perform text retrieval. For thi
 Finally, note that text retrieval is an empirically defined problem. This means, it can’t be mathematically proven that one method is better than another. Therefore, proof must rely on empirical evaluation involving users. 
 
 ## How to compile and link in one step:
-```g++-5 -Wall -o ngramsStudio ngramStudio.cpp ngramPlain.cpp -std=c++11
+```
+g++-5 -Wall -o ngramsStudio ngramStudio.cpp ngramPlain.cpp -std=c++11
 ```
 ## How to compile and link separately:
 ### How to compile:
