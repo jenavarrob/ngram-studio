@@ -1,3 +1,10 @@
+/******************************************************************* -*- C++ -*-
+*
+* author: Jesus Emeterio Navarro Barrientos.
+* web: https://sites.google.com/site/jenavarrob/
+* date: 2017-01-03
+*******************************************************************************/
+
 #include <fstream>  //std::ifstream
 #include <iostream>  // std::cout
 #include <assert.h>
