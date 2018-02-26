@@ -19,7 +19,8 @@
 
 using namespace std;
 
-typedef u_int8_t U8;
+//typedef u_int8_t U8;
+typedef unsigned int U8;
 typedef int32_t S32;
 typedef float F32;
 typedef pair<S32, F32> IdSim; //for id and similarity
