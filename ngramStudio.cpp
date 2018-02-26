@@ -112,6 +112,7 @@ void testFile(ifstream& in)
   testNGramSearch(ngrams, randLinesSearch); //
   double cpuTime = (float(clock() - startTime) / CLOCKS_PER_SEC);
   cout << "Running Time = " << cpuTime << endl;
+  system("PAUSE");
 }
 
 void testNGramSearch(NGramPlain& ngrams, StdStringVector& lines)
