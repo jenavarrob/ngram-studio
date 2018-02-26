@@ -8,6 +8,7 @@
 #include <fstream>  //std::ifstream
 #include <iostream>  // std::cout
 #include <assert.h>
+#include <time.h>
 
 #include "ngramPlain.h"
 #include "utils.hpp"
