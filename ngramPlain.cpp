@@ -185,8 +185,8 @@ NGramPlain::getIDsWithSimilarString(StdString& str, S32 numIdsToRetrieve, Vector
   }
 
   //sorts in ascending order, recall we want to grab items from last to first, i.e. in descending order
-  //std::sort(items.begin(), items.end());
-  std::partial_sort(items.begin(), items.begin() + numIdsToRetrieve, items.end(), IdFreqGreaterSimCompare());
+  std::sort(items.begin(), items.end());
+  //std::partial_sort(items.begin(), items.begin() + numIdsToRetrieve, items.end(), IdFreqGreaterSimCompare());
 
   //RETURN MOST SIMILAR SEARCH TERMS
   //ToDo: include different options for similarity measurement
