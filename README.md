@@ -31,3 +31,7 @@ g++-5 -Wall -c ngramStudio.cpp ngramPlain.cpp -std=c++11
 ```
 g++-5 -Wall -o ngramStudio ngramStudio.o ngramPlain.o 
 ```
+
+## How to run in Visual Studio:
+1) New project > Build from source code
+2) Run/ Debug on x64 environment

@@ -8,6 +8,7 @@
 #include <fstream>  //std::ifstream
 #include <iostream>  // std::cout
 #include <assert.h>
+#include <time.h>
 
 #include "ngramPlain.h"
 #include "utils.hpp"
@@ -112,6 +113,7 @@ void testFile(ifstream& in)
   testNGramSearch(ngrams, randLinesSearch); //
   double cpuTime = (float(clock() - startTime) / CLOCKS_PER_SEC);
   cout << "Running Time = " << cpuTime << endl;
+  system("PAUSE");
 }
 
 void testNGramSearch(NGramPlain& ngrams, StdStringVector& lines)
